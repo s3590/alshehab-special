@@ -1,0 +1,44 @@
+{
+  "id": "shehab-pro-app-v1",
+  "name": "الشهاب Pro",
+  "short_name": "الشهاب Pro",
+  "description": "النظام الشامل للإدارة والمبيعات السريعة لوكلاء وعملاء الشهاب Pro.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050b14",
+  "theme_color": "#050b14",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/static/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "نقطة البيع السريعة",
+      "short_name": "بيع طياري",
+      "description": "فتح نقطة البيع المباشر للكروت",
+      "url": "/?action=pos",
+      "icons": [{"src": "/static/logo.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "بوابة التسديدات",
+      "short_name": "تسديد رصيد",
+      "description": "فتح قسم شحن الرصيد والباقات",
+      "url": "/?action=telecom",
+      "icons": [{"src": "/static/logo.png", "sizes": "192x192"}]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# --- Core & Async Framework ---
+aiogram==3.4.1
+aiohttp==3.9.3
+aiohttp-cors==0.7.0
+asyncpg==0.29.0
+
+# --- Security & Auth ---
+python-dotenv==1.0.1
+PyJWT==2.8.0
+cryptography>=42.0.5
+
+# --- Performance & Caching ---
+orjson==3.9.15
+cachetools==5.3.3
+psutil>=5.9.8
+
+# --- Background Tasks & Time ---
+apscheduler==3.10.4
+pytz==2024.1
+
+# --- PDF & Excel Generation ---
+openpyxl==3.1.2
+reportlab==4.0.4
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+Pillow>=10.2.0
+
+# --- Voice & Audio ---
+edge-tts==6.1.9
+gTTS==2.5.1
+
+# --- Cloud Backup (الخزنة السحابية ) ---
+aiosmtplib==3.0.1
+pyzipper==0.3.6
+
+# --- Push Notifications (Firebase & Web Push) ---
+firebase-admin==6.5.0
+pywebpush==1.14.0
